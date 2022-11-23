@@ -4,8 +4,12 @@ python_requirement(
     requirements=[
         "pandas==1.2.4",
     ],
+    resolve="python-default",
 )
 
 # See https://www.pantsbuild.org/docs/reference-python_sources for more info
-python_sources(name = "sources", sources=["**/*.py"])
-
+python_sources(
+    name="sources",
+    sources=["**/*.py"],
+    resolve="python-default",
+)

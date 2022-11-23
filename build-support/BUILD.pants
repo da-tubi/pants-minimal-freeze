@@ -1,0 +1,11 @@
+python_sources(
+    name="sources",
+    sources=["freeze.py"],
+    resolve="build",
+)
+
+python_requirement(
+    name="reqs",
+    requirements=["toml"],
+    resolve="build",
+)

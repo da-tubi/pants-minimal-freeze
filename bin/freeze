@@ -1,0 +1,1 @@
+./pants run //build-support/freeze.py:sources -- $1
